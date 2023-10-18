@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"480dcb90ecb6b113","type":"text","text":"RTL-Bias-T","x":-220,"y":-140,"width":250,"height":60,"color":"4"},
+		{"id":"577af292673969fa","type":"text","text":"USB Mounted On /mnt/","x":-220,"y":20,"width":250,"height":60,"color":"3"},
+		{"id":"b3692af7c432cec7","type":"text","text":"Dump1090","x":-220,"y":-300,"width":250,"height":60,"color":"#966919"}
+	],
+	"edges":[
+		{"id":"5b39afba3dc77868","fromNode":"b3692af7c432cec7","fromSide":"bottom","toNode":"480dcb90ecb6b113","toSide":"top","color":"2","label":"Depends On"},
+		{"id":"bb537153bf041bf0","fromNode":"480dcb90ecb6b113","fromSide":"bottom","toNode":"577af292673969fa","toSide":"top","color":"3","label":"Depends On"}
+	]
+}

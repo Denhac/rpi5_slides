@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"b9ec19f36a038373","type":"text","text":"RTL SDR (Software Defined Radio)","x":120,"y":-500,"width":250,"height":60,"color":"6"},
+		{"id":"416dcec90199658e","type":"text","text":"Raspberry Pi\n- Raspbian\n- Dump1090","x":-120,"y":-400,"width":180,"height":120,"color":"#ffffff"},
+		{"id":"2742c8b2ec328071","type":"text","text":"LNA (Low Noise Amplifier)","x":-120,"y":-620,"width":220,"height":60,"color":"#1e00ff"},
+		{"id":"8ac23801913c09f7","type":"text","text":"Antenna","x":120,"y":-720,"width":160,"height":60,"color":"#1dfa00"}
+	],
+	"edges":[
+		{"id":"02477b2bc46a90dd","fromNode":"416dcec90199658e","fromSide":"right","toNode":"b9ec19f36a038373","toSide":"left","label":"USB"},
+		{"id":"0037b17b162d4448","fromNode":"b9ec19f36a038373","fromSide":"top","toNode":"2742c8b2ec328071","toSide":"right","label":"Pig Tail"},
+		{"id":"14a781aa5ad57be8","fromNode":"2742c8b2ec328071","fromSide":"top","toNode":"8ac23801913c09f7","toSide":"left","label":"Antenna Cable"}
+	]
+}
